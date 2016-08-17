@@ -3,8 +3,8 @@ import moment from 'moment';
 
 export function dateDisplay(params) {
   var timestamp = params[0] * -1;
-  console.log("Hi " + timestamp);
-  var date = moment.unix(timestamp).format("MM/DD/YYYY");
+  console.log("Hi, in date display-  " + timestamp);
+  var date = moment.unix(timestamp).format("YYYY-MM-DD");
   return date;
 }
 
