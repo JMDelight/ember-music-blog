@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import moment from 'moment';
 
 export default Ember.Component.extend({
   addNewPost: false,
@@ -11,9 +12,10 @@ export default Ember.Component.extend({
         title: this.get('title'),
         author: this.get('author'),
         category: this.get('category'),
-        timestamp: this.get('timestamp'),
+        timestamp: moment(this.get('timestamp')).unix(),
         content: this.get('content')
       };
+      console.log(params);
       this.set('addNewPost', false);
       this.sendAction('save2', params);
     }

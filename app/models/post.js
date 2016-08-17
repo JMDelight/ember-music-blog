@@ -5,5 +5,5 @@ export default DS.Model.extend({
   author: DS.attr(),
   category: DS.attr(),
   content: DS.attr(),
-  timestamp: DS.attr()
+  timestamp: DS.attr('number')
 });
