@@ -1,1 +1,8 @@
-{{outlet}}
+<h1>Welcome to Joel and Brett's Music Blog</h1>
+<h2>Posts:</h2>
+
+<ul>
+  {{#each model as |post|}}
+    {{post-tile post=post}}
+  {{/each}}
+</ul>
