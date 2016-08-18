@@ -2,3 +2,70 @@ textarea {
   width: 600px;
   height: 200px;
 }
+
+ul {
+  list-style: none;
+}
+
+.comment {
+  /*border: solid;*/
+  padding: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #2525ff;
+}
+
+.navbar {
+  background-color: black;
+  border: black;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+  background: url("/assets/images/piano-background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-body {
+  background-color: #AFAFAF;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: -1;
+  /*height: 100%;*/
+}
+
+h1, h2 {
+  color: black;
+  font-family: 'Rubik One', sans-serif;
+}
+
+h3, h4, h5, h6, p {
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+}

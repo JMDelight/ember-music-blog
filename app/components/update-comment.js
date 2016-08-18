@@ -7,12 +7,13 @@ export default Ember.Component.extend({
       this.set('updateComment', true);
     },
     saveUpdatedComment1(comment) {
-      var params= {
-        username: this.get('username'),
-        body: this.get('body')
-      };
+      comment.save();
+      // var params= {
+      //   username: this.get('username'),
+      //   body: this.get('body')
+      // };
       this.set('updateComment', false);
-      this.sendAction('saveUpdatedComment1', comment, params);
+      // this.sendAction('saveUpdatedComment1', comment, params);
     },
     deleteComment(comment) {
       if (confirm('Are you sure you want to delete this comment?')) {

@@ -1,8 +1,9 @@
+<h1>{{post.title}}</h1>
 {{post-tile post=model}}
 {{add-comment saveComment2="saveComment3" post=model}}
 <h1>Comments:</h1>
-<ul>
+<div class="comment">
   {{#each model.comments as |comment|}}
-    {{comment-tile comment=comment saveUpdatedComment1="saveUpdatedComment3" deleteComment="deleteComment"}}
+  {{comment-tile comment=comment saveUpdatedComment1="saveUpdatedComment3" deleteComment="deleteComment"}}
   {{/each}}
-</ul>
+</div>

@@ -4,11 +4,11 @@
     <form>
       <div class="form-group">
         <label for="updateUsername">Username</label>
-        {{input value=username id="updateUsername" placeholder= comment.username}}
+        {{input value=comment.username id="updateUsername" placeholder= comment.username}}
       </div>
       <div class="form-group">
         <label for="updateBody">Comment</label>
-        {{input value=body id="updateBody" placeholder= comment.body}}
+        {{input value=comment.body id="updateBody" placeholder= comment.body}}
       </div>
       <button {{action 'saveUpdatedComment1' comment}}>Save Comment</button>
     </form>

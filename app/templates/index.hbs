@@ -1,8 +1,16 @@
 <h1>Welcome to Joel and Brett's Music Blog</h1>
 <h2>Posts:</h2>
 
+
+  {{#each model.posts as |post|}}
+    <h1>{{#link-to 'post' post.id class="post-homepage"}}{{post.title}}{{/link-to}}</h1>
+    {{post-tile post=post}}
+  {{/each}}
+
+
+<h2>Recent Comments:</h2>
 <ul>
-  {{#each model as |post|}}
-    <li>{{#link-to 'post' post.id}}{{post.title}}{{/link-to}}</li>
+  {{#each model.comments as |comment|}}
+    <li>{{comment.body}} on {{#link-to 'post' comment.post.id}}{{comment.post.title}}{{/link-to}} </li>
   {{/each}}
 </ul>

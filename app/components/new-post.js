@@ -15,8 +15,6 @@ export default Ember.Component.extend({
         timestamp: -1 * moment(this.get('timestamp')).unix(),
         content: this.get('content')
       };
-      debugger;
-      console.log(params);
       this.set('addNewPost', false);
       this.sendAction('save2', params);
     }
