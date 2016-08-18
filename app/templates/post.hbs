@@ -3,6 +3,6 @@
 <h1>Comments:</h1>
 <ul>
   {{#each model.comments as |comment|}}
-    {{comment-tile comment=comment}}
+    {{comment-tile comment=comment saveUpdatedComment1="saveUpdatedComment3" deleteComment="deleteComment"}}
   {{/each}}
 </ul>
