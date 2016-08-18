@@ -1,0 +1,96 @@
+{
+  "categories" : {
+    "-instruments_category" : {
+      "name" : "Instruments",
+      "posts" : {
+        "-instrument_blog1" : true,
+        "-instrument_blog2" : true
+      }
+    },
+    "-education_category" : {
+      "name" : "Education",
+      "posts" : {
+        "-education_blog1" : true
+      }
+    },
+    "-miscellaneous_category" : {
+      "name" : "Miscellaneous",
+      "posts" : {
+        "-miscellaneous_blog1" : true
+      }
+    }
+  },
+  "comments" : {
+    "-comment1_instrument1" : {
+      "body" : "Thank you for this article!",
+      "post" : "-education_blog1",
+      "timestamp" : -1471553108,
+      "username" : "super_serious"
+    },
+    "-comment2_instrument1" : {
+      "body" : "No thank you for this article!",
+      "post" : "-education_blog1",
+      "timestamp" : -1471553129,
+      "username" : "super_serious_redux"
+    },
+    "-comment1_instrument2" : {
+      "body" : "Tubas!!!!!!!!!!",
+      "post" : "-instrument_blog1",
+      "timestamp" : -1471553158,
+      "username" : "yo_mama's_tuba"
+    },
+    "-comment2_instrument2" : {
+      "body" : "Trumpets for life!",
+      "post" : "-instrument_blog1",
+      "timestamp" : -1471553188,
+      "username" : "oboist_expert"
+    },
+    "-comment1_miscellaneous1" : {
+      "body" : " Thanks for nothing Obama!",
+      "post" : "-miscellaneous_blog1",
+      "timestamp" : -1471553214,
+      "username" : "conservative_pride"
+    }
+  },
+  "posts" : {
+    "-education_blog1" : {
+      "author" : "Brett New",
+      "category" : "-education_category",
+      "comments" : {
+        "-comment1_instrument1" : true,
+        "-comment2_instrument1" : true
+      },
+      "content" : "Lorem ipsum dolor sit amet, eum molestie maluisset ei, nec aeque dolorum argumentum cu, nam ne brute vocibus percipitur. Dolorem fabellas efficiantur cum ei. Id qui probo mucius aliquam, at quo dissentiunt disputationi. Mundi audiam tibique quo in, te vidit incorrupte interpretaris nam. Ut graeco lobortis interpretaris mei. Dolore discere voluptatibus eos eu, probo audiam fastidii at cum.\n\nSed habeo mollis et, et cetero deterruisset mea, solet vivendo nam ex. Hinc eleifend pri no. Per dictas iuvaret discere et, eum at possim tamquam. Iusto altera mnesarchum his ne, dicam corrumpit his ut.\n\nAt ius iuvaret noluisse adipiscing. Utinam commune officiis id pro, mea ut affert malorum disputando, est sale viris mediocrem ne. Vim iudico impetus moderatius ne. Mel ex eius augue pericula. Sea nemore corpora ancillae te, an nam aperiam euismod. Tollit evertitur accommodare has at.",
+      "timestamp" : -1470639600,
+      "title" : "Signs of a Good Music Teacher"
+    },
+    "-instrument_blog1" : {
+      "author" : "Jane Goodall",
+      "category" : "-instruments_category",
+      "comments" : {
+        "-comment1_instrument2" : true,
+        "-comment2_instrument2" : true
+      },
+      "content" : "Here are some steps:\n\n1. Lorem ipsum dolor sit amet, eum molestie maluisset ei, nec aeque dolorum argumentum cu, nam ne brute vocibus percipitur. Dolorem fabellas efficiantur cum ei. Id qui probo mucius aliquam, at quo dissentiunt disputationi. Mundi audiam tibique quo in, te vidit incorrupte interpretaris nam. Ut graeco lobortis interpretaris mei. Dolore discere voluptatibus eos eu, probo audiam fastidii at cum.\n\n2. Sed habeo mollis et, et cetero deterruisset mea, solet vivendo nam ex. Hinc eleifend pri no. Per dictas iuvaret discere et, eum at possim tamquam. Iusto altera mnesarchum his ne, dicam corrumpit his ut.\n\nAt ius iuvaret noluisse adipiscing. Utinam commune officiis id pro, mea ut affert malorum disputando, est sale viris mediocrem ne. Vim iudico impetus moderatius ne. Mel ex eius augue pericula. Sea nemore corpora ancillae te, an nam aperiam euismod. Tollit evertitur accommodare has at.",
+      "timestamp" : -1470034800,
+      "title" : "Which is the Best Instrument?"
+    },
+    "-miscellaneous_blog1" : {
+      "author" : "Barack Obama",
+      "category" : "-miscellaneous_category",
+      "comments" : {
+        "-comment1_miscellaneous1" : true
+      },
+      "content" : "Here are some steps:\n\n1. Lorem ipsum dolor sit amet, eum molestie maluisset ei, nec aeque dolorum argumentum cu, nam ne brute vocibus percipitur. Dolorem fabellas efficiantur cum ei. Id qui probo mucius aliquam, at quo dissentiunt disputationi. Mundi audiam tibique quo in, te vidit incorrupte interpretaris nam. Ut graeco lobortis interpretaris mei. Dolore discere voluptatibus eos eu, probo audiam fastidii at cum.\n\n2. Sed habeo mollis et, et cetero deterruisset mea, solet vivendo nam ex. Hinc eleifend pri no. Per dictas iuvaret discere et, eum at possim tamquam. Iusto altera mnesarchum his ne, dicam corrumpit his ut.\n\nAt ius iuvaret noluisse adipiscing. Utinam commune officiis id pro, mea ut affert malorum disputando, est sale viris mediocrem ne. Vim iudico impetus moderatius ne. Mel ex eius augue pericula. Sea nemore corpora ancillae te, an nam aperiam euismod. Tollit evertitur accommodare has at.",
+      "timestamp" : -1458025200,
+      "title" : "What Am I Doing Here?"
+    },
+    "-instrument_blog2" : {
+      "author" : "Brett New",
+      "category" : "-instruments_category",
+      "content" : "Burn them all!",
+      "timestamp" : -1458630000,
+      "title" : "Down with Cellos!"
+    }
+  }
+}

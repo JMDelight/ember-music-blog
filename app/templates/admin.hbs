@@ -1,6 +1,6 @@
 
 {{#each model.posts as |post|}}
-  <p>{{post.title}} <button {{action 'deletePost' post}}>Delete</button>{{edit-post post=post edit="edit"}}</p>
+  <p>{{post.title}} <button {{action 'deletePost' post}}>Delete</button>{{edit-post post=post edit="edit" categories=model.categories}}</p>
 {{/each}}
 
 {{new-post save2='save3' categories=model.categories}}

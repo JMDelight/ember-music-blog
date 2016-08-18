@@ -13,7 +13,14 @@
     </div>
     <div class="form-group">
       <label for="category">Category</label>
-      {{input value=category id="category" placeholder=post.category.name}}
+      {{#power-select
+        selected=category
+        options=categories
+        onchange=(action (mut category))
+        as |item|
+      }}
+        {{item.name}}
+      {{/power-select}}
     </div>
     <div class="form-group">
       <label for="content">Content</label>
