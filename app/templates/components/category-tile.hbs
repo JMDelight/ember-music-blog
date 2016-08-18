@@ -1,0 +1,10 @@
+<li>{{category.name}} <button {{action 'showPosts'}}>See Posts</button></li>
+{{#if displayPosts}}
+<h4>HI</h4>
+  <ul>
+    {{#each category.posts as |post|}}
+      <li>{{#link-to 'post' post.id}}{{post.title}}{{/link-to}}</li>
+    {{/each}}
+  </ul>
+  <button {{action 'hidePosts'}}>Hide posts</button>
+{{/if}}
